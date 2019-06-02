@@ -20,8 +20,6 @@ public class _00_1D_Array_Test {
 		int[] arr = {0, 1, 2, 3, 4};
 		assertEquals(2.0, _00_1D_Array_Methods.averageIntArray(arr), 0.001);
 
-		int[] arr2 = {5, 3, 23, -6, 24};
-		assertEquals(9.8, _00_1D_Array_Methods.averageIntArray(arr2), 0.001);
 		
 		int[] arr3 = {20, 1, -12, 93};
 		assertEquals(25.5, _00_1D_Array_Methods.averageIntArray(arr3), 0.001);
